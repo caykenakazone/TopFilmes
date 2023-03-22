@@ -42,7 +42,7 @@ function getTopFilmes() {
             divContainer.setAttribute("class", "divContainer");
 
 
-            var count = 0; // contador para acompanhar o número de divs criadas
+            var count = 0; 
 
             for (i = 0; i <= 9; i++) {
                 var posterPath = "https://image.tmdb.org/t/p/w500" + data.results[i].poster_path;
@@ -78,7 +78,7 @@ function getTopFilmes() {
                 }
             }
 
-            // adicionando a última divContainer restante
+        
             if (count % 3 == 1) {
                 var divPaiFilmes = document.createElement("div");
                 divPaiFilmes.setAttribute("class", "divPaiFilmes");
