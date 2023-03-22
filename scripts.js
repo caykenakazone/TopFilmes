@@ -48,7 +48,7 @@ function getTopFilmes() {
                 var posterPath = "https://image.tmdb.org/t/p/w500" + data.results[i].poster_path;
                 var titulo = data.results[i].title;
                 var avaliacao = data.results[i].vote_average;
-                var popularidade = data.results[i].popularity;
+                var ling = data.results[i].original_language;
                 var datalanc = data.results[i].release_date;
 
                 var div = document.createElement("div");
@@ -59,7 +59,7 @@ function getTopFilmes() {
                 div.appendChild(img);
 
                 var p = document.createElement("p");
-                p.innerHTML = `<br>Título: ${titulo}<br>Avaliação: ${avaliacao} <br>Popularidade: ${popularidade}<br>Data de lançamento: ${datalanc}`;
+                p.innerHTML = `<br>Título: ${titulo}<br>Avaliação: ${avaliacao} <br>Idioma: ${ling}<br>Data de lançamento: ${datalanc}`;
 
                 div.appendChild(p);
 
