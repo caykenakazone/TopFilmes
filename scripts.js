@@ -66,7 +66,7 @@ function getTopFilmes() {
                 divContainer.appendChild(div);
                 count++; 
 
-                if (count % 3 == 0) {
+                if (count % 2 == 0) {
                     var divPaiFilmes = document.createElement("div");
                     divPaiFilmes.setAttribute("class", "divPaiFilmes");
 
@@ -78,25 +78,5 @@ function getTopFilmes() {
                 }
             }
 
-        
-            if (count % 3 == 1) {
-                var divPaiFilmes = document.createElement("div");
-                divPaiFilmes.setAttribute("class", "divPaiFilmes");
-
-                var divContainerAnterior = divFilmes.lastChild.firstChild;
-                divContainerAnterior.appendChild(divContainer.firstChild);
-
-                divPaiFilmes.appendChild(divContainerAnterior);
-                divPaiFilmes.appendChild(divContainer);
-
-                divFilmes.replaceChild(divPaiFilmes, divFilmes.lastChild);
-            }
-            else if (count % 3 == 2) {
-                var divPaiFilmes = document.createElement("div");
-                divPaiFilmes.setAttribute("class", "divPaiFilmes");
-
-                divPaiFilmes.appendChild(divContainer);
-                divFilmes.appendChild(divPaiFilmes);
-            }
         })
 }
