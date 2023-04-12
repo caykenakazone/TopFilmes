@@ -1,5 +1,3 @@
-![Terminal]([https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/144_Gitlab-512.png](https://canalcienciascriminais.com.br/wp-content/uploads/2019/05/cinema.png))
-
 # 🎞 TopFilmes
  Nesse Projeto sobre API's e requisição assíncrona, fiz a criação de uma página onde são mostrados os 10 filmes mais populares do site TMDB. Optei por fazer uma API's mais minimalista, onde são exibidas na tela as informações sobre os filmes. Quando é passado o mouse sobre o filme, é mudado a cor de fundo para mostrar qual filme você está lendo.
 
