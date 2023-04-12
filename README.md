@@ -6,7 +6,7 @@
 ### ✔ Funcionalidades
 
   - [x] Requisição Assíncrona
-  - [x] Atulização da lista de filmes
+  - [x] Atualização da lista de filmes
  
 
 ### 🛠 Tecnologias
